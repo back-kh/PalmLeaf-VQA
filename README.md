@@ -1,6 +1,8 @@
 # PalmLeaf-VQA
 
-**Accepted at WACV 2027 in the first round.**
+**WACV 2027 Disney Springs, Florida, USA**
+
+Accepted in the first round.
 
 **PalmLeaf-VQA: A Multi-Script Visual Question Answering Benchmark for Historical Palm-Leaf Manuscript Understanding Across Diverse Regions**
 
