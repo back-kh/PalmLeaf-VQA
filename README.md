@@ -18,9 +18,9 @@ The benchmark focuses on manuscript layout and physical attributes. It does not 
 
 ## 🖼️ Benchmark Overview
 
-![Figure 1. PalmLeaf-VQA overview showing eight manuscript collections, example visual question-answer pairs, eight question categories, and five task types.](assets/fig1-overview.jpg)
+![Figure 1. PalmLeaf-VQA overview showing eight manuscript collections, example visual question-answer pairs, eight question categories, and five task types.](assets/fig1-overview-corrected.png)
 
-*Figure 1 from the [paper](https://arxiv.org/abs/2609.31651), reproduced unchanged. The overview presents representative manuscript collections and QA examples, the question taxonomy, and the five task types: classification, counting, layout reasoning, binary recognition, and attribute recognition.*
+*Figure 1 adapted from the [paper](https://arxiv.org/abs/2609.31651), with the Grantha example question corrected to "What other visible physical feature is present?" to match its answer and category. The overview presents representative manuscript collections and QA examples, the question taxonomy, and five task types: classification, counting, layout reasoning, binary recognition, and attribute recognition.*
 
 ## 📌 Current Status
 
