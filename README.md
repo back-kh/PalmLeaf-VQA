@@ -101,6 +101,6 @@ Until the proceedings version is available, please cite the preprint:
 
 ## 📬 Contact
 
-For questions about the benchmark and planned releases, contact **Nimol Thuon** at [tnimol@ustc.edu.cn](mailto:tnimol@ustc.edu.cn).
+For questions about the benchmark and planned releases, contact **Nimol Thuon** at [nimol.thuon@gmail.com](mailto:nimol.thuon@gmail.com).
 
 *Last updated: November 7, 2026.*
