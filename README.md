@@ -16,6 +16,12 @@ PalmLeaf-VQA is a visual question answering benchmark for historical palm-leaf m
 
 The benchmark focuses on manuscript layout and physical attributes. It does not evaluate full-text transcription, translation, or understanding of the manuscripts' textual content.
 
+## 🖼️ Benchmark Overview
+
+![Figure 1. PalmLeaf-VQA overview showing eight manuscript collections, example visual question-answer pairs, eight question categories, and five task types.](assets/fig1-overview.jpg)
+
+*Figure 1 from the [paper](https://arxiv.org/abs/2609.31651), reproduced unchanged. The overview presents representative manuscript collections and QA examples, the question taxonomy, and the five task types: classification, counting, layout reasoning, binary recognition, and attribute recognition.*
+
 ## 📌 Current Status
 
 **Current milestone: WACV 2027 accepted.** The preprint is publicly available. The project webpage, dataset releases, full benchmark materials, and newer-model evaluations are planned next steps; they are not yet released through this repository.
@@ -50,7 +56,25 @@ As described in the paper, PalmLeaf-VQA contains **923 manuscript images** and *
 | Test | 278 | 2,224 |
 | **Total** | **923** | **7,384** |
 
-The eight collection groups are Balinese, Grantha, Jathakam, Kambaramayanam, Kannada, Khmer, Sundanese, and Tamil. These are source-collection or manuscript-tradition labels and do not necessarily map one-to-one to distinct scripts. The reported splits are image-disjoint, not guaranteed to be fully manuscript-disjoint.
+The reported splits are image-disjoint, not guaranteed to be fully manuscript-disjoint.
+
+## 🌏 Scripts and Collections
+
+PalmLeaf-VQA covers the following eight script/collection groups:
+
+| Script / collection group | Images | Question-answer pairs |
+| --- | ---: | ---: |
+| Balinese | 100 | 800 |
+| Grantha | 70 | 560 |
+| Jathakam | 99 | 792 |
+| Kambaramayanam | 80 | 640 |
+| Kannada | 257 | 2,056 |
+| Khmer | 155 | 1,240 |
+| Sundanese | 61 | 488 |
+| Tamil | 101 | 808 |
+| **Total** | **923** | **7,384** |
+
+These names identify source collections or manuscript traditions and do not necessarily correspond one-to-one to distinct scripts. Counts reflect the benchmark described in the paper.
 
 ## 🧾 Release and Evaluation Notes
 
