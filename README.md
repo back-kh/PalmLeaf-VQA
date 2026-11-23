@@ -28,6 +28,7 @@ The benchmark focuses on manuscript layout and physical attributes. It does not 
 
 ### 📰 News
 
+- **November 24, 2026:** [New evaluations](#model-benchmarks-new-evaluations) for six models are available under open and constrained prompting.
 - **November 23, 2026:** The [project webpage](https://back-kh.github.io/palmleaf-vqa/) went live and the [test dataset](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) was released.
 - **WACV 2027:** PalmLeaf-VQA has been accepted in the first round.
 - **September 14, 2026:** The first [preprint](https://arxiv.org/abs/2609.31651) became available on arXiv.
@@ -42,7 +43,7 @@ The benchmark focuses on manuscript layout and physical attributes. It does not 
 | 4 | Test dataset release | ✅ Complete | Test images and reviewed QA are available on [Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) for non-commercial use only. |
 | 5 | Paper benchmark evaluation | ✅ Complete | The [paper's model performance tables](https://arxiv.org/html/2609.31651v1#S5) report test-set results without task-specific fine-tuning. |
 | 6 | Full benchmark paper and materials | ✅ Complete | The [preprint and supplement](https://arxiv.org/html/2609.31651v1) include the benchmark tables and evaluation protocol. |
-| 7 | Newer-model benchmark updates | ⏳ Planned | Evaluate larger and newer multimodal models on the test set and report the results separately from the paper. |
+| 7 | Newer-model benchmark updates | ✅ Published | [Results for six additional models](#model-benchmarks-new-evaluations) are available separately from the paper. |
 | 8 | Training and validation release and follow-up benchmark | ⏳ Planned | Release training and validation annotations, split identifiers, and access instructions. Use training data for fine-tuning and validation data for model selection, then check for overlap before evaluating on the test set. |
 
 Release links and completion dates will be added here as each milestone is reached. Planned milestones are not announcements of completed releases.
@@ -59,6 +60,27 @@ As described in the paper, PalmLeaf-VQA contains **923 manuscript images** and *
 | **Total** | **923** | **7,384** |
 
 The split counts refer to manuscript image records.
+
+## Model Benchmarks (New evaluations)
+
+These follow-up results are separate from the accepted paper. See also the [project webpage benchmark table](https://back-kh.github.io/palmleaf-vqa/#new-evaluations).
+
+| Model | Mode | Exact acc. | Mean F1 | Mean Jaccard |
+| --- | --- | ---: | ---: | ---: |
+| deepseek4.1-flash | Constrained | 48.92% | 53.25% | 51.67% |
+| deepseek4.1-flash | Open | 27.70% | 28.18% | 28.06% |
+| qwen3.8-flash-next | Constrained | 49.91% | 56.72% | 54.63% |
+| qwen3.8-flash-next | Open | 32.37% | 32.58% | 32.50% |
+| glm-5.3-flash | Constrained | 48.02% | 54.55% | 52.52% |
+| glm-5.3-flash | Open | 34.44% | 34.55% | 34.51% |
+| qwen3.8-27B | Constrained | 44.38% | 49.51% | 47.72% |
+| qwen3.8-27B | Open | 34.76% | 34.77% | 34.77% |
+| GPT-6.2 Sol (Max) | Constrained | 62.37% | 73.87% | 71.53% |
+| GPT-6.2 Sol (Max) | Open | 46.27% | 48.07% | 47.36% |
+| GPT-6.2 Astra (Max) | Constrained | 59.22% | 69.72% | 67.54% |
+| GPT-6.2 Astra (Max) | Open | 48.04% | 49.75% | 49.07% |
+
+The GPT-6.2 Max runs used the archived WACV prompts and original test labels via Codex CLI, rather than the paper's API runner. Sol scored 2,224 answers per mode. Astra scored 2,224 constrained and 2,221 open answers; three open script-identification requests timed out and were excluded. The other four models' scores are reported as supplied.
 
 ## Python Quick Start
 
@@ -116,4 +138,4 @@ Until the proceedings version is available, please cite the preprint:
 
 For questions about the benchmark and planned releases, contact **Nimol Thuon** at [nimol.thuon@gmail.com](mailto:nimol.thuon@gmail.com).
 
-*Last updated: November 23, 2026.*
+*Last updated: November 24, 2026.*
