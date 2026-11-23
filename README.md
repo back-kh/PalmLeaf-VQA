@@ -76,8 +76,8 @@ Models marked (New) were evaluated after the paper. The [project webpage benchma
 | GPT-6.2 Astra (Max) (New) | Open | **48.04%** | **49.75%** | **49.07%** | **97.84%** |
 | Gemini 3.5 Flash | Constrained | 58.00% | 67.25% | - | 93.88% |
 | Gemini 3.5 Flash | Open | 43.03% | 43.31% | - | 95.13% |
-| ChatGPT 5.5 | Constrained | 55.40% | 66.17% | - | 93.53% |
-| ChatGPT 5.5 | Open | 40.50% | 39.16% | - | 94.68% |
+| GPT 5.5 | Constrained | 55.40% | 66.17% | - | 93.53% |
+| GPT 5.5 | Open | 40.50% | 39.16% | - | 94.68% |
 | Gemini 3.1 Flash Lite | Constrained | 47.53% | 58.80% | - | 74.28% |
 | Gemini 3.1 Flash Lite | Open | 39.52% | 39.58% | - | 75.72% |
 | **Open-weight vision-language models** | | | | | |
