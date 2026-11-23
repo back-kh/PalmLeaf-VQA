@@ -60,6 +60,17 @@ As described in the paper, PalmLeaf-VQA contains **923 manuscript images** and *
 
 The split counts refer to manuscript image records.
 
+## Python Quick Start
+
+Download the [test-set ZIP](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA/resolve/main/PalmLeaf-VQA-Test-Images-QA.zip) and run the [Python example](examples/inspect_test_set.py) from this repository. It uses only the Python standard library and reads annotations directly from the archive.
+
+```bash
+python3 examples/inspect_test_set.py PalmLeaf-VQA-Test-Images-QA.zip
+python3 examples/inspect_test_set.py PalmLeaf-VQA-Test-Images-QA.zip --image Khmer_0009.jpg
+```
+
+The first command shows counts by collection. The second prints the selected image's question-answer pairs and its path inside the ZIP.
+
 ## 🌏 Scripts and Collections
 
 PalmLeaf-VQA covers the following eight script/collection groups:
