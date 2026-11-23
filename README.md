@@ -8,7 +8,7 @@
 
 **Project lead: Nimol Thuon**
 
-[📄 Read the preprint](https://arxiv.org/abs/2609.31651) | [Hugging Face (private)](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) | [🗺️ Project roadmap](#roadmap) | [📖 Citation](#citation)
+[📄 Read the preprint](https://arxiv.org/abs/2609.31651) | [Test set on Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) | [🗺️ Project roadmap](#roadmap) | [📖 Citation](#citation)
 
 ## 🔎 Overview
 
@@ -24,10 +24,11 @@ The benchmark focuses on manuscript layout and physical attributes. It does not 
 
 ## 📌 Current Status
 
-**WACV 2027 accepted.** The reviewed test set contains **278 manuscript image records** and **2,224 approved question-answer pairs**. It is hosted on [Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) in a private repository.
+**WACV 2027 accepted.** The reviewed test set is publicly available on [Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) for **non-commercial use only**. The [test ZIP](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA/resolve/main/PalmLeaf-VQA-Test-Images-QA.zip) contains **278 manuscript image records** and **2,224 approved question-answer pairs**.
 
 ### 📰 News
 
+- **November 23, 2026:** The [test dataset](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) was released.
 - **WACV 2027:** PalmLeaf-VQA has been accepted in the first round.
 - **September 14, 2026:** The first [preprint](https://arxiv.org/abs/2609.31651) became available on arXiv.
 
@@ -38,7 +39,7 @@ The benchmark focuses on manuscript layout and physical attributes. It does not 
 | 1 | First preprint published | ✅ Complete | Paper available on arXiv. |
 | 2 | WACV 2027 acceptance | ✅ Complete | Accepted in the first round. |
 | 3 | Project webpage update | ⏳ Planned | Benchmark overview, examples, and links to project resources. |
-| 4 | Test dataset release | Private upload complete | Reviewed test images and QA are on Hugging Face; public access is not yet available. |
+| 4 | Test dataset release | ✅ Complete | Test images and reviewed QA are available on [Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) for non-commercial use only. |
 | 5 | Training and validation dataset release | ⏳ Planned | Training/validation annotations, split identifiers, and data-access instructions. |
 | 6 | Full benchmark paper and materials | ⏳ Planned | Final conference paper, supplementary materials, evaluation code, and protocol documentation. |
 | 7 | Newer-model benchmark updates | ⏳ Planned | Versioned evaluations of larger and newer multimodal models. |
