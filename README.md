@@ -8,7 +8,7 @@
 
 **Project lead: Nimol Thuon**
 
-[📄 Read the preprint](https://arxiv.org/abs/2609.31651) | [Test set on Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) | [🗺️ Project roadmap](#roadmap) | [📖 Citation](#citation)
+[🌐 Project webpage](https://back-kh.github.io/palmleaf-vqa/) | [📄 Read the preprint](https://arxiv.org/abs/2609.31651) | [Test set on Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) | [🗺️ Project roadmap](#roadmap) | [📖 Citation](#citation)
 
 ## 🔎 Overview
 
@@ -24,11 +24,11 @@ The benchmark focuses on manuscript layout and physical attributes. It does not 
 
 ## 📌 Current Status
 
-**WACV 2027 accepted.** The reviewed test set is publicly available on [Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) for **non-commercial use only**. The [test ZIP](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA/resolve/main/PalmLeaf-VQA-Test-Images-QA.zip) contains **278 manuscript image records** and **2,224 approved question-answer pairs**.
+**WACV 2027 accepted.** The [project webpage](https://back-kh.github.io/palmleaf-vqa/) is live, and the reviewed test set is publicly available on [Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) for **non-commercial use only**. The [test ZIP](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA/resolve/main/PalmLeaf-VQA-Test-Images-QA.zip) contains **278 manuscript image records** and **2,224 approved question-answer pairs**.
 
 ### 📰 News
 
-- **November 23, 2026:** The [test dataset](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) was released.
+- **November 23, 2026:** The [project webpage](https://back-kh.github.io/palmleaf-vqa/) went live and the [test dataset](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) was released.
 - **WACV 2027:** PalmLeaf-VQA has been accepted in the first round.
 - **September 14, 2026:** The first [preprint](https://arxiv.org/abs/2609.31651) became available on arXiv.
 
@@ -38,11 +38,12 @@ The benchmark focuses on manuscript layout and physical attributes. It does not 
 | --- | --- | --- | --- |
 | 1 | First preprint published | ✅ Complete | Paper available on arXiv. |
 | 2 | WACV 2027 acceptance | ✅ Complete | Accepted in the first round. |
-| 3 | Project webpage update | ⏳ Planned | Benchmark overview, examples, and links to project resources. |
+| 3 | Project webpage launch | ✅ Complete | The [project webpage](https://back-kh.github.io/palmleaf-vqa/) is live with examples, paper results, and download links. |
 | 4 | Test dataset release | ✅ Complete | Test images and reviewed QA are available on [Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) for non-commercial use only. |
-| 5 | Training and validation dataset release | ⏳ Planned | Training/validation annotations, split identifiers, and data-access instructions. |
-| 6 | Full benchmark paper and materials | ⏳ Planned | Final conference paper, supplementary materials, evaluation code, and protocol documentation. |
-| 7 | Newer-model benchmark updates | ⏳ Planned | Versioned evaluations of larger and newer multimodal models. |
+| 5 | Paper benchmark evaluation | ✅ Complete | The [paper's model performance tables](https://arxiv.org/html/2609.31651v1#S5) report test-set results without task-specific fine-tuning. |
+| 6 | Full benchmark paper and materials | 📄 Paper available | The [preprint and supplement](https://arxiv.org/html/2609.31651v1) include the benchmark tables and evaluation protocol. Evaluation code is not yet released. |
+| 7 | Newer-model benchmark updates | ⏳ Planned | Evaluate larger and newer multimodal models on the test set and report the results separately from the paper. |
+| 8 | Training and validation release and follow-up benchmark | ⏳ Planned | Release training and validation annotations, split identifiers, and access instructions. Use training data for fine-tuning and validation data for model selection, then check for overlap before evaluating on the test set. |
 
 Release links and completion dates will be added here as each milestone is reached. Planned milestones are not announcements of completed releases.
 
