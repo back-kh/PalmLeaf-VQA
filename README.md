@@ -41,7 +41,7 @@ The benchmark focuses on manuscript layout and physical attributes. It does not 
 | 3 | Project webpage launch | ✅ Complete | The [project webpage](https://back-kh.github.io/palmleaf-vqa/) is live with examples, paper results, and download links. |
 | 4 | Test dataset release | ✅ Complete | Test images and reviewed QA are available on [Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) for non-commercial use only. |
 | 5 | Paper benchmark evaluation | ✅ Complete | The [paper's model performance tables](https://arxiv.org/html/2609.31651v1#S5) report test-set results without task-specific fine-tuning. |
-| 6 | Full benchmark paper and materials | 📄 Paper available | The [preprint and supplement](https://arxiv.org/html/2609.31651v1) include the benchmark tables and evaluation protocol. Evaluation code is not yet released. |
+| 6 | Full benchmark paper and materials | ✅ Complete | The [preprint and supplement](https://arxiv.org/html/2609.31651v1) include the benchmark tables and evaluation protocol. |
 | 7 | Newer-model benchmark updates | ⏳ Planned | Evaluate larger and newer multimodal models on the test set and report the results separately from the paper. |
 | 8 | Training and validation release and follow-up benchmark | ⏳ Planned | Release training and validation annotations, split identifiers, and access instructions. Use training data for fine-tuning and validation data for model selection, then check for overlap before evaluating on the test set. |
 
@@ -80,7 +80,7 @@ These names identify source collections or manuscript traditions and do not nece
 
 ## 🧾 Release and Evaluation Notes
 
-- The test dataset is for **non-commercial use only**. Training and validation data and evaluation code are not yet released.
+- The test dataset is for **non-commercial use only**. Training and validation data are not yet released.
 - Image access and redistribution will follow the original sources' terms. Restricted-source material will require source identifiers and retrieval instructions rather than unauthorized image redistribution.
 - Annotation corrections and benchmark updates will be versioned. Results reported in the paper belong to the annotation version used for those experiments; corrected test labels require rescoring before results can be associated with the revised version.
 - Future evaluations will document model versions, prompts, decoding settings, and scoring rules. New results will be distinguished from those reported in the accepted paper.
