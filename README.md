@@ -8,7 +8,7 @@
 
 **Project lead: Nimol Thuon**
 
-[📄 Read the preprint](https://arxiv.org/abs/2609.31651) | [🗺️ Project roadmap](#roadmap) | [📖 Citation](#citation)
+[📄 Read the preprint](https://arxiv.org/abs/2609.31651) | [Hugging Face (private)](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) | [🗺️ Project roadmap](#roadmap) | [📖 Citation](#citation)
 
 ## 🔎 Overview
 
@@ -24,7 +24,7 @@ The benchmark focuses on manuscript layout and physical attributes. It does not 
 
 ## 📌 Current Status
 
-**Current milestone: WACV 2027 accepted.** The preprint is publicly available. The project webpage, dataset releases, full benchmark materials, and newer-model evaluations are planned next steps; they are not yet released through this repository.
+**WACV 2027 accepted.** The reviewed test set contains **278 manuscript image records** and **2,224 approved question-answer pairs**. It is hosted on [Hugging Face](https://huggingface.co/datasets/Backkh/PalmLeaf-VQA) in a private repository.
 
 ### 📰 News
 
@@ -36,9 +36,9 @@ The benchmark focuses on manuscript layout and physical attributes. It does not 
 | Step | Milestone | Status | Details |
 | --- | --- | --- | --- |
 | 1 | First preprint published | ✅ Complete | Paper available on arXiv. |
-| **2** | **WACV 2027 acceptance** | **✅ Current milestone - complete** | **Accepted in the first round.** |
+| 2 | WACV 2027 acceptance | ✅ Complete | Accepted in the first round. |
 | 3 | Project webpage update | ⏳ Planned | Benchmark overview, examples, and links to project resources. |
-| 4 | Test dataset release | ⏳ Planned | Reviewed test annotations, split identifiers, and data-access instructions. |
+| 4 | Test dataset release | Private upload complete | Reviewed test images and QA are on Hugging Face; public access is not yet available. |
 | 5 | Training and validation dataset release | ⏳ Planned | Training/validation annotations, split identifiers, and data-access instructions. |
 | 6 | Full benchmark paper and materials | ⏳ Planned | Final conference paper, supplementary materials, evaluation code, and protocol documentation. |
 | 7 | Newer-model benchmark updates | ⏳ Planned | Versioned evaluations of larger and newer multimodal models. |
@@ -56,7 +56,7 @@ As described in the paper, PalmLeaf-VQA contains **923 manuscript images** and *
 | Test | 278 | 2,224 |
 | **Total** | **923** | **7,384** |
 
-The reported splits are image-disjoint, not guaranteed to be fully manuscript-disjoint.
+The split counts refer to manuscript image records.
 
 ## 🌏 Scripts and Collections
 
@@ -78,7 +78,7 @@ These names identify source collections or manuscript traditions and do not nece
 
 ## 🧾 Release and Evaluation Notes
 
-- Dataset downloads and evaluation code are not yet available in this repository. Their release status will be updated in the roadmap.
+- The test dataset is for **non-commercial use only**. Training and validation data and evaluation code are not yet released.
 - Image access and redistribution will follow the original sources' terms. Restricted-source material will require source identifiers and retrieval instructions rather than unauthorized image redistribution.
 - Annotation corrections and benchmark updates will be versioned. Results reported in the paper belong to the annotation version used for those experiments; corrected test labels require rescoring before results can be associated with the revised version.
 - Future evaluations will document model versions, prompts, decoding settings, and scoring rules. New results will be distinguished from those reported in the accepted paper.
@@ -103,4 +103,4 @@ Until the proceedings version is available, please cite the preprint:
 
 For questions about the benchmark and planned releases, contact **Nimol Thuon** at [nimol.thuon@gmail.com](mailto:nimol.thuon@gmail.com).
 
-*Last updated: November 7, 2026.*
+*Last updated: November 23, 2026.*
