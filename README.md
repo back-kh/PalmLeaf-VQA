@@ -67,47 +67,45 @@ The split counts refer to manuscript image records.
 
 Models marked (New) were evaluated after the paper. The [project webpage benchmark table](https://back-kh.github.io/palmleaf-vqa/#benchmark) reports the same scores. Bold marks the highest reported score for each metric and prompt mode within the proprietary and open-weight groups.
 
-| Model | Mode | Exact acc. | Mean F1 | Mean Jaccard | Line count &plusmn;1 |
-| --- | --- | ---: | ---: | ---: | ---: |
-| **Proprietary vision-language models** | | | | | |
-| GPT-6.2 Sol (Max) (New) | Constrained | **62.37%** | **73.87%** | **71.53%** | **98.20%** |
-| GPT-6.2 Sol (Max) (New) | Open | 46.27% | 48.07% | 47.36% | 97.48% |
-| GPT-6.2 Astra (Max) (New) | Constrained | 59.22% | 69.72% | 67.54% | **98.20%** |
-| GPT-6.2 Astra (Max) (New) | Open | **48.04%** | **49.75%** | **49.07%** | **97.84%** |
-| Gemini 3.5 Flash (Best on paper) | Constrained | 58.00% | 67.25% | - | 93.88% |
-| Gemini 3.5 Flash (Best on paper) | Open | 43.03% | 43.31% | - | 95.13% |
-| GPT 5.5 | Constrained | 55.40% | 66.17% | - | 93.53% |
-| GPT 5.5 | Open | 40.50% | 39.16% | - | 94.68% |
-| Gemini 3.1 Flash Lite | Constrained | 47.53% | 58.80% | - | 74.28% |
-| Gemini 3.1 Flash Lite | Open | 39.52% | 39.58% | - | 75.72% |
-| **Open-weight vision-language models** | | | | | |
-| Qwen3.8-Flash-Next (New) | Constrained | **49.91%** | **56.72%** | **54.63%** | - |
-| Qwen3.8-Flash-Next (New) | Open | 32.37% | 32.58% | 32.50% | - |
-| DeepSeek-V4.1-Flash (New) | Constrained | 48.92% | 53.25% | 51.67% | - |
-| DeepSeek-V4.1-Flash (New) | Open | 27.70% | 28.18% | 28.06% | - |
-| GLM-5.3-Flash (New) | Constrained | 48.02% | 54.55% | 52.52% | - |
-| GLM-5.3-Flash (New) | Open | 34.44% | 34.55% | 34.51% | - |
-| InternVL3.5-4B | Constrained | 46.00% | 54.93% | - | 59.71% |
-| InternVL3.5-4B | Open | 24.96% | 25.12% | - | 65.65% |
-| InternVL3.5-8B | Constrained | 44.96% | 54.48% | - | 62.05% |
-| InternVL3.5-8B | Open | 24.78% | 25.02% | - | 61.51% |
-| Qwen3.8-27B (New) | Constrained | 44.38% | 49.51% | 47.72% | - |
-| Qwen3.8-27B (New) | Open | **34.76%** | **34.77%** | **34.77%** | - |
-| Qwen3-VL-8B | Constrained | 44.02% | 54.73% | - | **71.22%** |
-| Qwen3-VL-8B | Open | 21.49% | 21.80% | - | 68.60% |
-| Qwen2.5-VL-3B | Constrained | 35.21% | 41.71% | - | 56.29% |
-| Qwen2.5-VL-3B | Open | 15.15% | 15.61% | - | 54.33% |
-| Qwen2.5-VL-7B | Constrained | 31.03% | 37.41% | - | 61.87% |
-| Qwen2.5-VL-7B | Open | 13.62% | 13.95% | - | **71.92%** |
-| Gemma-3-4B-IT | Constrained | 30.94% | 40.13% | - | 14.75% |
-| Gemma-3-4B-IT | Open | 19.29% | 21.58% | - | 29.50% |
-| **Text-only controls** | | | | | |
-| Llama-3.1-8B | Constrained | 31.65% | 34.05% | - | 34.35% |
-| Llama-3.1-8B | Open | 8.00% | 8.00% | - | 3.96% |
-| Llama-3.2-3B | Constrained | 26.26% | 26.26% | - | 23.92% |
-| Llama-3.2-3B | Open | 7.91% | 7.91% | - | 0.00% |
-
-Line count &plusmn;1 is the percentage of answers within one line of the reference count. A dash means not reported.
+| Model | Mode | Exact acc. | Mean F1 |
+| --- | --- | ---: | ---: |
+| **Proprietary vision-language models** | | | |
+| GPT-6.2 Sol (Max) (New) | Constrained | **62.37%** | **73.87%** |
+| GPT-6.2 Sol (Max) (New) | Open | 46.27% | 48.07% |
+| GPT-6.2 Astra (Max) (New) | Constrained | 59.22% | 69.72% |
+| GPT-6.2 Astra (Max) (New) | Open | **48.04%** | **49.75%** |
+| Gemini 3.5 Flash (Best on paper) | Constrained | 58.00% | 67.25% |
+| Gemini 3.5 Flash (Best on paper) | Open | 43.03% | 43.31% |
+| GPT 5.5 | Constrained | 55.40% | 66.17% |
+| GPT 5.5 | Open | 40.50% | 39.16% |
+| Gemini 3.1 Flash Lite | Constrained | 47.53% | 58.80% |
+| Gemini 3.1 Flash Lite | Open | 39.52% | 39.58% |
+| **Open-weight vision-language models** | | | |
+| Qwen3.8-Flash-Next (New) | Constrained | **49.91%** | **56.72%** |
+| Qwen3.8-Flash-Next (New) | Open | 32.37% | 32.58% |
+| DeepSeek-V4.1-Flash (New) | Constrained | 48.92% | 53.25% |
+| DeepSeek-V4.1-Flash (New) | Open | 27.70% | 28.18% |
+| GLM-5.3-Flash (New) | Constrained | 48.02% | 54.55% |
+| GLM-5.3-Flash (New) | Open | 34.44% | 34.55% |
+| InternVL3.5-4B | Constrained | 46.00% | 54.93% |
+| InternVL3.5-4B | Open | 24.96% | 25.12% |
+| InternVL3.5-8B | Constrained | 44.96% | 54.48% |
+| InternVL3.5-8B | Open | 24.78% | 25.02% |
+| Qwen3.8-27B (New) | Constrained | 44.38% | 49.51% |
+| Qwen3.8-27B (New) | Open | **34.76%** | **34.77%** |
+| Qwen3-VL-8B | Constrained | 44.02% | 54.73% |
+| Qwen3-VL-8B | Open | 21.49% | 21.80% |
+| Qwen2.5-VL-3B | Constrained | 35.21% | 41.71% |
+| Qwen2.5-VL-3B | Open | 15.15% | 15.61% |
+| Qwen2.5-VL-7B | Constrained | 31.03% | 37.41% |
+| Qwen2.5-VL-7B | Open | 13.62% | 13.95% |
+| Gemma-3-4B-IT | Constrained | 30.94% | 40.13% |
+| Gemma-3-4B-IT | Open | 19.29% | 21.58% |
+| **Text-only controls** | | | |
+| Llama-3.1-8B | Constrained | 31.65% | 34.05% |
+| Llama-3.1-8B | Open | 8.00% | 8.00% |
+| Llama-3.2-3B | Constrained | 26.26% | 26.26% |
+| Llama-3.2-3B | Open | 7.91% | 7.91% |
 
 **Parameters:** [DeepSeek-V4.1-Flash](https://arxiv.org/html/2609.19969v1) has a 552B backbone plus 196B Engram parameters, with 8B active during prefill and 16B during decoding. [Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) has a 125B main model with 6B active, plus 51B n-gram embeddings and a 4B multi-token prediction module. [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) has 320B total and 18B active parameters. [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) is a 27B dense model.
 
