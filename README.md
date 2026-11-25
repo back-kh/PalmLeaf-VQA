@@ -109,7 +109,6 @@ Models marked (New) were evaluated after the paper. The [project webpage benchma
 
 **Parameters:** [DeepSeek-V4.1-Flash](https://arxiv.org/html/2609.19969v1) has a 552B backbone plus 196B Engram parameters, with 8B active during prefill and 16B during decoding. [Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) has a 125B main model with 6B active, plus 51B n-gram embeddings and a 4B multi-token prediction module. [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) has 320B total and 18B active parameters. [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) is a 27B dense model.
 
-The [paper scores](https://arxiv.org/html/2609.31651v1#S5) are unchanged. The GPT-6.2 Max runs used Codex CLI with the archived prompts and original WACV test labels rather than the paper's API runner. Each GPT mode scored 2,224 answers except Astra open, which scored 2,221 after three script-identification timeouts. The other new scores are reported as supplied.
 
 ## Python Quick Start
 
